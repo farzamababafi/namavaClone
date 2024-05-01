@@ -1,0 +1,28 @@
+.info-container {
+  width: 100%;
+  height: 0vh;
+  background-color: black;
+  display: flex;
+}
+.info-container .img,
+.info-container .info {
+  width: 50%;
+  height: 100%;
+}
+.info-container .img img {
+  object-fit: cover;
+  width: 50%;
+  height: 100%;
+}
+.info-container .info {
+  color: #fff;
+}
+.info-container.null {
+  height: 40vh;
+}
+
+@media (max-width: 790px) {
+  .info-container .img img {
+    width: 90%;
+  }
+}

@@ -1,0 +1,96 @@
+.showbar {
+	width: 100%;
+	height: 70vh;
+	background: black;
+}
+.showbar img,
+.showbar video {
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.showbar img {
+	width: 40%;
+}
+.showbar video {
+	width: 100%;
+}
+.showbar .info {
+	position: absolute;
+	display: flex;
+	padding: 10px 30px;
+	margin-right: 20px;
+	flex-direction: column;
+	right: 0;
+	top: 50%;
+	transform: translateY(-120%);
+}
+.showbar .info .name {
+	color: #fff;
+}
+
+.showbar .info div {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.showbar .info div button {
+	min-height: 50px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border-style: none;
+	font-size: 1.2em;
+	background: #fff;
+	cursor: pointer;
+}
+.showbar .info div button:hover {
+	background: rgb(33, 173, 253);
+	color: white;
+}
+.showbar .info div .speaker {
+	font-size: 3em;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	cursor: pointer;
+	color: #fff;
+}
+.showbar .btncontainer {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	display: flex;
+	margin-left: 60px;
+	justify-content: center;
+	align-items: center;
+}
+.showbar .btncontainer .btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: rgb(245, 241, 227, 0.6);
+	margin: 0 10px;
+	font-size: 1.5em;
+	cursor: pointer;
+	color: rgba(240, 248, 255, 0.658);
+}
+.showbar .btncontainer .btn:hover {
+	color: #fff;
+}
+@media (max-width: 565px) {
+	.showbar .info div button {
+		padding: 7px 10px;
+		font-size: 1.1em;
+	}
+	.showbar .info div .speaker {
+		font-size: 2em;
+	}
+	.showbar .btncontainer .btn {
+		width: 30px;
+		height: 30px;
+		font-size: 1.3em;
+	}
+}

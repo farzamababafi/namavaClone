@@ -1,0 +1,62 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transform: translateY(0);
+	transition: 1s;
+	width: 200px;
+}
+.card.active {
+	transform: translateY(10px);
+}
+.card .img {
+	width: 100%;
+	height: 30vh;
+}
+.card .img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.card p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.card .img .like {
+	position: absolute;
+	width: 100%;
+	height: 30vh;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 20px;
+	background: rgba(20, 20, 20, 0.671);
+	opacity: 0;
+	color: #fff;
+	transition: 0.2s;
+	transition-delay: 0.5s;
+}
+.card .img .like.active {
+	opacity: 1;
+}
+.card .img .like section {
+	margin-top: 10px;
+	font-size: 1.3em;
+}
+.card .border {
+	width: 50%;
+	height: 5px;
+	background: #fff;
+	margin-top: 80px;
+	border-radius: 20%;
+	opacity: 0;
+	transition: 0.5s;
+}
+.card .border.active {
+	opacity: 1;
+}

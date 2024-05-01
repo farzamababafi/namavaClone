@@ -1,0 +1,39 @@
+.sidebar {
+  position: relative;
+  width: 100%;
+
+  overflow: hidden;
+}
+.sidebar .title {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  padding: 0 40px;
+  background: black;
+}
+.sidebar .title div {
+  display: flex;
+}
+.sidebar .title h3 {
+  cursor: pointer;
+}
+.sidebar .title h4 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.sidebar .title div:hover h4 {
+  opacity: 1;
+}
+.sidebar .moviebar {
+  background: black;
+  width: 100%;
+  display: flex;
+  min-height: 47vh;
+  padding: 10px;
+  justify-content: flex-end;
+}

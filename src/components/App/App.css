@@ -1,0 +1,117 @@
+.App .menu-slide {
+	width: 35%;
+	height: 100%;
+	position: fixed;
+	background: rgb(48, 48, 48);
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 20px;
+	transition: 0.6s;
+}
+.App .menu-slide.hide {
+	right: -35%;
+}
+.App .menu-btn {
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.App .menu-btn h5 {
+	margin-right: 15px;
+}
+.App .slide.home {
+	margin-top: 30px;
+	font-size: 1.3em;
+	direction: rtl;
+}
+.App .slide.home a {
+	color: #fff;
+	margin-top: 20px;
+	list-style: none;
+	display: flex;
+	cursor: pointer;
+	text-decoration: none;
+}
+.App .slide.home a:hover,
+.App .slide.home a.active {
+	color: rgba(0, 68, 255, 0.801);
+}
+.App .slide.home a svg {
+	margin-left: 20px;
+	font-size: 1.5em;
+}
+
+.moviebar:hover .swiper-button-next {
+	transition: opacity 0.5s ease-in-out;
+	opacity: 1;
+}
+.moviebar:hover .swiper-button-prev {
+	transition: opacity 0.5s ease-in-out;
+	opacity: 1;
+}
+.swiper-button-next,
+.swiper-button-prev {
+	color: #fff;
+	width: 15px;
+	opacity: 0;
+	height: 100%;
+	align-items: center;
+	transform: translateY(-50%);
+	font-size: 2px;
+	background: rgba(0, 0, 0, 0.804);
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+	right: 0;
+	left: auto;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+	right: auto;
+	left: 0;
+}
+.swiper-button-next:focus {
+	border: none;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+	transform: translateY(-200%);
+	font-size: 16px;
+	font-weight: 900;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+	display: none;
+}
+
+@media (max-width: 565px) {
+	.App .slide.home li {
+		font-size: 0.8em;
+	}
+}
+@media (max-width: 502px) {
+	.App .slide.home li {
+		font-size: 0.5em;
+	}
+	.swiper-slide {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 375px) {
+	.App .menu-btn {
+		font-size: 1.2em;
+	}
+	.App .slide.home a {
+		font-size: 0.4em;
+	}
+}
