@@ -10,7 +10,8 @@ React, Swiper, HTML/CSS, JavaScript
 
 ## Home Page
 
-![NamavaClone](https://githubusercontent.com/farzamababafi/namavaClone/HomePage.png)
+<img width="1498" alt="HomePage" src="https://github.com/user-attachments/assets/aaf11508-8162-4c8a-ae03-5936c34907f6" />
+
 
 ![Alt Text](https://raw.githubusercontent.com/farzamababafi/namavaClone/Footer.png)
 
