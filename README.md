@@ -10,7 +10,7 @@ React, Swiper, HTML/CSS, JavaScript
 
 ## Home Page
 
-![Alt Text](https://raw.githubusercontent.com/farzamababafi/namavaClone/main/HomePage.png)
+![Alt Text](https://raw.githubusercontent.com/farzamababafi/namavaClone/HomePage.png)
 
-![Alt Text](https://raw.githubusercontent.com/farzamababafi/namavaClone/main/Footer.png)
+![Alt Text](https://raw.githubusercontent.com/farzamababafi/namavaClone/Footer.png)
 
