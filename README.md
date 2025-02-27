@@ -12,6 +12,15 @@ React, Swiper, HTML/CSS, JavaScript
 
 <img width="1498" alt="HomePage" src="https://github.com/user-attachments/assets/aaf11508-8162-4c8a-ae03-5936c34907f6" />
 
+<img width="1498" alt="Footer" src="https://github.com/user-attachments/assets/04f7c2a3-ca1f-430e-a37c-8f510095fa8b" />
 
-![Alt Text](https://raw.githubusercontent.com/farzamababafi/namavaClone/Footer.png)
+
+## Sign In/Out Page
+
+<img width="1498" alt="SignInPage" src="https://github.com/user-attachments/assets/9b69f7be-1e97-4ec8-9212-d13b590c0444" />
+
+## Payment Page
+
+<img width="1498" alt="PaymentPage" src="https://github.com/user-attachments/assets/daa4e20c-750c-48ca-8b82-768492aa2261" />
+
 
