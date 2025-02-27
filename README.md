@@ -11,7 +11,7 @@ React, Swiper, HTML/CSS, JavaScript
 ## Home Page
 
 <img width="1498" alt="HomePage" src="https://github.com/user-attachments/assets/aaf11508-8162-4c8a-ae03-5936c34907f6" />
-
+<br><br>
 <img width="1498" alt="Footer" src="https://github.com/user-attachments/assets/04f7c2a3-ca1f-430e-a37c-8f510095fa8b" />
 
 
