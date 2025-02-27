@@ -7,3 +7,10 @@ streaming plagorm, using React. Cloned the frontend components of the Namava web
 
 React, Swiper, HTML/CSS, JavaScript
 
+
+## Home Page
+
+![Alt Text](https://raw.githubusercontent.com/farzamababafi/namavaClone/main/HomePage.png)
+
+![Alt Text](https://raw.githubusercontent.com/farzamababafi/namavaClone/main/Footer.png)
+
